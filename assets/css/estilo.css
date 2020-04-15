@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.margin-top {
+    margin-top: 100px
+}
+
+.link {
+    background: #eee;
+    padding: 20px;
+    color: #454545;
+    box-shadow: 0 0 1px 0 #333
+}
+
+.link:hover {
+    color: #333
+}
+
+.bloco_lista {
+    margin: 10px 0px;
+    padding: 40px 10px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.bloco_lista_link {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 5px
+}
+
+.left {
+    text-align: left;
+}
+
+
+input[type='file']
+{
+    display: none;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    box-shadow: var(--sombra);
+    outline: none;
+    height: 54px;
+    margin: 5px 0;
+    color: #888
+}
+
+.file {
+    cursor: pointer;
+    width: 128px
+}
+
+.padding-small {
+    padding: 15px 10px
+}

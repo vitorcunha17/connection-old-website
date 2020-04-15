@@ -1,0 +1,109 @@
+<h2 class="display-3 text-white mb-0 text-letter-spacing-xs d-inline-block">
+            <span data-animate-delay="0.4" style="animation-delay: 0.4s;">Desenvolvedor</span> <span class="font-weight-bold" data-typed="[&quot;Back-end&quot;, &quot;Front-end&quot;, &quot;Full Stack&quot;]" data-typed-settings="{&quot;delay&quot;:1000, &quot;speed&quot;:200,&quot;breakLines&quot;:false, &quot;deleteDelay&quot;:1500}"><i class="ti-placeholder" style="display:inline-block;width:0;line-height:0;overflow:hidden;">.</i><span style="display:inline;position:relative;font:inherit;color:inherit;" class="ti-container">Full Stack</span><span style="display: inline; position: relative; font: inherit; color: inherit; opacity: 0.956346;" class="ti-cursor">|</span></span> 
+          </h2>
+		  
+		  
+		  
+		  
+		  
+		  
+		  <ul id="ctl00_ctl00_ctl00_Cabecalho1_menuNaoLogado" class="dropdown-menu sb-fazerLogin">
+              <li>
+                <div class="container sb-boxsuperior">
+                  <div class="myarrow"></div>
+                  <div class="row">
+                    <div class="col-md-7 col-lg-7 col-sm-7 sb-quemsou">
+                      <legend class="sb-title">
+                        <img corrigirurl="true" id="imgQueroCadastrar" src="https://www.sebraemg.com.br/atendimento/App_Themes/Padrao2015/images/icon-title.png" alt="">
+                        <span class="text sb-title" style="margin-left: 0px;">Quero me cadastrar como:</span>
+                      </legend>
+                      <div style="position: relative; top: -5px">
+                        <ul>
+                          <li class="sb-iconImg emp-formal2">
+                            <a href="https://www.sebraemg.com.br/atendimento/Cadastro/pessoafisicacomp.aspx?CodigoQuemSou=1" id="ctl00_ctl00_ctl00_Cabecalho1_linkEmpresaFormal"><span>Empresa Formal</span></a>
+                          </li>
+                          <li class="sb-iconImg emp-informal2">
+                            <a href="https://www.sebraemg.com.br/atendimento/Cadastro/pessoafisica.aspx?CodigoQuemSou=2" id="ctl00_ctl00_ctl00_Cabecalho1_linkEmpresaInformal"><span>Empresa Informal</span></a>
+                          </li>
+                          <li class="sb-iconImg emp-rural2">
+                            <a href="https://www.sebraemg.com.br/atendimento/Cadastro/pessoafisicacomp.aspx?CodigoQuemSou=5" id="ctl00_ctl00_ctl00_Cabecalho1_linkProdutorRural"><span>Produtor Rural</span></a>
+                          </li>
+                          <li class="sb-iconImg emp-funcionario2">
+                            <a href="https://www.sebraemg.com.br/atendimento/Cadastro/pessoafisicacomp.aspx?CodigoQuemSou=4" id="ctl00_ctl00_ctl00_Cabecalho1_linkFuncionarioEmpresa"><span>Funcionário de Empresa</span></a>
+                          </li>
+                          <li class="sb-iconImg emp-queroabrirempresa2">
+                            <a href="https://www.sebraemg.com.br/atendimento/Cadastro/pessoafisica.aspx?CodigoQuemSou=6" id="ctl00_ctl00_ctl00_Cabecalho1_linkQueroAbrirEmpresa"><span>Quero Abrir Empresa</span></a>
+                          </li>
+                          <li class="sb-iconImg emp-estudante2">
+                            <a href="https://www.sebraemg.com.br/atendimento/Cadastro/pessoafisica.aspx?CodigoQuemSou=3" id="ctl00_ctl00_ctl00_Cabecalho1_linkEstudantePessoaFisica"><span>Estudante/ Pessoa Física</span></a>
+                          </li>
+                        </ul>
+
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-lg-5 col-sm-5 sb-login">
+                      <legend class="sb-title">
+                        <img corrigirurl="true" src="https://www.sebraemg.com.br/atendimento/App_Themes/Padrao2015/images/icon-title.png" alt="">
+                        <span class="text sb-title">Faça seu login</span>
+                      </legend>
+                      <div id="summaryLogin" style="display: none;">
+                      </div>
+                      <div class="form-group" id="formGroupLogin">
+                        <input name="ctl00$ctl00$ctl00$Cabecalho1$txtCPF" type="text" maxlength="14" id="ctl00_ctl00_ctl00_Cabecalho1_txtCPF" class="form-control mask-cpf sb-cpf-login sb-logar" placeholder="CPF" autocomplete="off" onkeypress="return LogarComEnter(event)">
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvCPF" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;display:none;"></span>
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvCPFIE8" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;display:none;"></span>
+                      </div>
+                      <div class="form-group">
+                        <input name="ctl00$ctl00$ctl00$Cabecalho1$txtSenha" type="password" maxlength="10" id="ctl00_ctl00_ctl00_Cabecalho1_txtSenha" class="form-control sb-senha-login sb-logar" placeholder="SENHA" onfocus="focusFunction('0')" onblur="blurFunction()" onkeypress="return LogarComEnter(event)">
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvSenha" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;visibility:hidden;"></span>
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvSenhaIE8" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;display:none;"></span>
+                      </div>
+                      <div class="form-group">
+                        <div class="checkbox" style="margin-bottom: 0px">
+                          <label>
+                            <input name="ctl00$ctl00$ctl00$Cabecalho1$chkManterConectado" type="checkbox" id="ctl00_ctl00_ctl00_Cabecalho1_chkManterConectado">Manter-me conectado
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-group sb-btns-area btn-area-height">
+                        <input type="submit" name="ctl00$ctl00$ctl00$Cabecalho1$btnEntrar" value="Entrar" onclick="return ValidaForm('Login','summaryLogin');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$Cabecalho1$btnEntrar&quot;, &quot;&quot;, true, &quot;Login&quot;, &quot;&quot;, false, false))" id="ctl00_ctl00_ctl00_Cabecalho1_btnEntrar" class="btn btn-primary btn-area-width">
+                      </div>
+                      <div class="form-group">
+                        <input type="submit" name="ctl00$ctl00$ctl00$Cabecalho1$btnRecuperarSenha" value="Recuperar senha" id="ctl00_ctl00_ctl00_Cabecalho1_btnRecuperarSenha" class="btn btn-primary btn-1003 sb-btn-recuperarSenha">
+                        <input type="submit" name="ctl00$ctl00$ctl00$Cabecalho1$btnSuporteOnline" value="Suporte Online" onclick="window.open('../Geral/SuporteOnline.aspx','janela','width=490,height=670,toolbar=0,resizable=1,scrollbars=0,location=0,directories=0,status=1');" id="ctl00_ctl00_ctl00_Cabecalho1_btnSuporteOnline" class="btn btn-primary btn-1003 btn-left">
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-lg-5 col-sm-5 sb-esqueciSenha">
+                      <legend class="sb-title esqueci-senha-height">
+                        <img corrigirurl="true" src="https://www.sebraemg.com.br/atendimento/App_Themes/Padrao2015/images/icon-title.png" alt="">
+                        <span class="text">Informe os dados abaixo para recuperar sua senha:</span>
+                      </legend>
+
+                      <div id="summaryDataNascimento" style="display: none;">
+                      </div>
+                      <div class="form-group esqueci-senha-height">
+                        <input name="ctl00$ctl00$ctl00$Cabecalho1$txtCPFData" type="text" maxlength="14" id="ctl00_ctl00_ctl00_Cabecalho1_txtCPFData" class="form-control mask-cpf sb-cpf-login-data" placeholder="CPF" autocomplete="off">
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvCPFData" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;display:none;"></span>
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvCPFDataIE8" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;display:none;"></span>
+                      </div>
+                      <div class="form-group esqueci-senha-height">
+                        <input name="ctl00$ctl00$ctl00$Cabecalho1$txtDataNascimento" type="text" maxlength="10" id="ctl00_ctl00_ctl00_Cabecalho1_txtDataNascimento" class="form-control mask-data sb-data-senha" placeholder="Data de Nascimento">
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvDataNascimento" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;visibility:hidden;"></span>
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvDataIE8" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;display:none;"></span>
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_cstData" mensagemerro="O campo Data de Nascimento possui valor ou formato inválido." style="color:Red;display:none;"></span>
+                      </div>
+                      <div class="form-group esqueci-senha-height">
+                        <input name="ctl00$ctl00$ctl00$Cabecalho1$txtEmail" type="text" maxlength="50" id="ctl00_ctl00_ctl00_Cabecalho1_txtEmail" class="form-control sb-email-senha" placeholder="Email" autocomplete="off">
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvEmail" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;visibility:hidden;"></span>
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_rfvEmailIE8" mensagemerro="Ops! Os campos destacados abaixo são obrigatórios e devem estar preenchidos." style="color:Red;display:none;"></span>
+                        <span id="ctl00_ctl00_ctl00_Cabecalho1_cstEmail" mensagemerro="O campo E-mail possui valor ou formato inválido." style="color:Red;display:none;"></span>
+                      </div>
+                      <div class="form-group sb-btns-area esqueci-senha-height">
+                        <input type="submit" name="ctl00$ctl00$ctl00$Cabecalho1$btnEnviarDataNascimento" value="Enviar" onclick="return ValidaForm('DataNascimento','summaryDataNascimento');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$Cabecalho1$btnEnviarDataNascimento&quot;, &quot;&quot;, true, &quot;DataNascimento&quot;, &quot;&quot;, false, false))" id="ctl00_ctl00_ctl00_Cabecalho1_btnEnviarDataNascimento" class="btn btn-enviardt btn-area-width-middle" title="Informe os dados solicitados para recuperar a sua senha." readonly="true"><!--disabled="true"-->
+                        <input type="submit" name="ctl00$ctl00$ctl00$Cabecalho1$Button2" value="Voltar" onclick="return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$Cabecalho1$Button2&quot;, &quot;&quot;, true, &quot;DataNascimento&quot;, &quot;&quot;, false, false))" id="ctl00_ctl00_ctl00_Cabecalho1_Button2" class="btn btn-primary btn-area-width-middle btn-left-esqueci-senha sb-btn-voltar-senha">
+                      </div>
+                      <input type="submit" name="ctl00$ctl00$ctl00$Cabecalho1$ctl00" value="Suporte Online" onclick="window.open('../../Geral/SuporteOnline.aspx','janela','width=490,height=670,toolbar=0,resizable=1,scrollbars=0,location=0,directories=0,status=1');" class="btn btn-primary btn-1003 btn-area-width-suporte-online">
+                    </div>
+                  </div>
+              </div></li>
+            </ul>

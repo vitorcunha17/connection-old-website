@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+.margin-top {
+    margin-top: 100px;
+}
+.link {
+    background: #eee;
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 0 0 1px 0 #333;
+}
+
+.link:hover {
+    color: #333;
+}
+
+.lista_cursos {
+    max-height: 80px;
+    overflow-y: auto;
+}
+
+input[type='file'] {
+    
+    display: none;
+    width: 100%;
+    padding: 15px;
+    border: none;box-shadow: 
+    var(--sombra);
+    outline: none;
+    height: 54px;
+    margin: 5px 0;
+    color: #888
+}
+
+.file {
+    cursor: pointer;
+    width: 128px;
+}
+
+.padding-small {
+    padding: 15px 10px;
+}
+
